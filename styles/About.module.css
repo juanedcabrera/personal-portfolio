@@ -1,0 +1,7 @@
+/* in css module, you cannot put element selectors */
+/* p {
+    color: chartreuse
+} */
+.green {
+    color: chartreuse
+}
