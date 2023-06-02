@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NavBlock = () => {
+const NavHorizontal = () => {
   return (
     <footer>
       <div className="footer-block">
@@ -12,4 +12,4 @@ const NavBlock = () => {
   );
 };
 
-export default NavBlock;
+export default NavHorizontal;

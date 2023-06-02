@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-const metadata: Metadata = {
+const metadata = {
     title: "Juan Cabrera | Softare Engineer",
     description: "The personal site, blog, and portfolio of Juan Cabrera, a software engineer based in Denver, Colorado.",
     canonical: "https://juanedcabrera.com",
