@@ -1,12 +1,13 @@
 import React from 'react';
+import styles from './page.module.css';
 
 const NavBlock = () => {
   return (
     <footer>
-      <div className="footer-block">
-        <a href="/blog">Blog</a>
-        <a href="/readlist">Readlist</a>
-        <a href="/projects">Projects</a>
+      <div className={`${styles.navBlock}`}>
+        <a href="/blog" className={`${styles.navLink}`}>Blog</a>
+        <a href="/readlist" className={`${styles.navLink}`}>Readlist</a>
+        <a href="/projects" className={`${styles.navLink}`}>Projects</a>
       </div>
     </footer>
   );
