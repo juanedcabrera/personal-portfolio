@@ -25,7 +25,6 @@
   }
   
  
- 
  /* Media Query for Mobile */
 @media (max-width: 768px) {
     .projectBlock, .projectImage, .projectDescription, .projectTitle {

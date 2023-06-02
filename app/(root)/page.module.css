@@ -1,7 +1,19 @@
+
+
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0px;
   }
   
-  
+.projectBlock1 {
+    background-color: purple;
+}
+
+.projectBlock2 {
+    background-color: orange;
+}
+
+.projectBlock3 {
+    background-color: green;
+}

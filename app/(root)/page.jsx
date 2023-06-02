@@ -9,21 +9,27 @@ function App () {
       <div>
         <Introduction />
         <div className={`${styles.gridContainer}`}>
+          <div className={`${styles.projectBlock1}`}>
         <ProjectBlock 
           title="Thoughtful.day"
           description="Journaling platform for self-reflection"
-          image="https://github.com/juanedcabrera/thoughtful.day/raw/main/public/images/homepage.png"
-        />
+          image=""
+          />
+          </div>
+          <div className={`${styles.projectBlock2}`}>
         <ProjectBlock
           title="Calientes"
           description="The first and only Hot Ones API"
-          image="https://github.com/juanedcabrera/calientes/raw/main/assets/homepage.png"
-        />
+          image=""
+          />
+          </div>
+          <div className={`${styles.projectBlock3}`}>
         <ProjectBlock
           title="Waldo's Great Escape"
           description="A moving Where's Waldo game with a storyline"
-          image="https://github.com/juanedcabrera/Waldos-Great-Escape-Game/raw/main/start.png"
-        />
+          image=""
+          />
+          </div>
         <NavBlock />
         </div>
         <Resume />
