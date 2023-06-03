@@ -1,7 +1,7 @@
-import Introduction from "@/components/Introduction/page"
-import NavBlock from "@/components/NavBlock/page"
-import ProjectBlock from "@/components/ProjectBlock/page"
-import Resume from "@/components/Resume/page"
+import Introduction from "../../components/Introduction/page.jsx"
+import NavBlock from "../../components/NavBlock/page.jsx"
+import ProjectBlock from "../../components/ProjectBlock/page.jsx"
+import Resume from "../../components/Resume/page.jsx"
 import styles from './page.module.css';
 
 
