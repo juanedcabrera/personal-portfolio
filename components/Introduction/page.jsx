@@ -4,14 +4,23 @@ import styles from './page.module.css';
 import Image from 'next/image';
 
 const Introduction = () => {
-  const [showModal, setShowModal] = useState(false);
+  const [showDadModal, setShowDadModal] = useState(false);
+  const [showAwardModal, setShowAwardModal] = useState(false);
 
-  const handleModalOpen = () => {
-    setShowModal(true);
+  const handleDadModalOpen = () => {
+    setShowDadModal(true);
   };
 
-  const handleModalClose = () => {
-    setShowModal(false);
+  const handleDadModalClose = () => {
+    setShowDadModal(false);
+  };
+
+  const handleAwardModalOpen = () => {
+    setShowAwardModal(true);
+  };
+
+  const handleAwardModalClose = () => {
+    setShowAwardModal(false);
   };
 
   return (
@@ -29,13 +38,18 @@ const Introduction = () => {
         , a resilient and determined{' '}
         <em
           className={`${styles.italicized} ${styles.hoverImage}`}
-          onClick={handleModalOpen}
+          onClick={handleDadModalOpen}
         >
           dad
         </em>{' '}
         of 2, transitioned from being an{' '}
-        <em className={styles.italicized}>award-winning </em>Senior Talent
-        Acquisition Partner to embark on a new path as a{' '}
+        <em
+          className={`${styles.italicized} ${styles.hoverImage}`}
+          onClick={handleAwardModalOpen}
+        >
+          award-winning
+        </em>{' '}
+        Senior Talent Acquisition Partner to embark on a new path as a{' '}
         <a
           href="https://www.github.com/juanedcabrera"
           target="_blank"
@@ -46,17 +60,36 @@ const Introduction = () => {
           </em>
         </a>
         . To kickstart his software engineering journey, he worked an average of
-        15 hours a day to complete his General Assembly Software Engineering
-        Immersive bootcamp in 3 months. Check out his work.
+        15 hours a day to complete his{' '}
+        <a
+          href="https://generalassemb.ly/education/software-engineering-immersive"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <em className={`${styles.italicized} ${styles.underline}`}>
+            General Assembly Software Engineering Immersive bootcamp
+          </em>
+        </a> in 3 months. Check out his work.
       </h1>
 
-      {showModal && (
-        <div className={styles.modal} onClick={handleModalClose}>
+      {showDadModal && (
+        <div className={styles.modal} onClick={handleDadModalClose}>
           <Image
             src="/../public/uploads/dad.jpeg"
             alt="Dad"
-            height="250"
-            width="500"
+            height={250}
+            width={500}
+          />
+        </div>
+      )}
+
+      {showAwardModal && (
+        <div className={styles.modal} onClick={handleAwardModalClose}>
+          <Image
+            src="/../public/uploads/award.jpeg"
+            alt="Award"
+            height={500}
+            width={400}
           />
         </div>
       )}
