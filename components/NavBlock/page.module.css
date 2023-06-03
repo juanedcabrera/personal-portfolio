@@ -1,0 +1,27 @@
+.navBlock {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .navLink1, .navLink2, .navLink3, .navLink4 {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .navLink1 {
+    background-color: #0A9396;
+  }
+
+  .navLink2 {
+    background-color: #CA6702;
+  }
+
+  .navLink3 {
+    background-color: #94D2BD;
+  }

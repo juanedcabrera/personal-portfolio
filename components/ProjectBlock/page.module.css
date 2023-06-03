@@ -1,0 +1,39 @@
+.projectBlock {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 800px;
+}
+
+.projectTitle {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .projectDescription {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .projectImage {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+ 
+ /* Media Query for Mobile */
+@media (max-width: 768px) {
+    .projectBlock, .projectImage, .projectDescription, .projectTitle {
+      flex-direction: column;
+      max-width: 100%;
+    }
+  
+    .projectImage {
+      max-width: 100%;
+    }
+}
