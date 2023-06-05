@@ -1,4 +1,4 @@
-import Header from '@/components/Header/page';
+import Header from '../../../components/Header/page.jsx';
 import NavHorizontal from 'components/NavHorizontal/page';
 import React from 'react';
 
