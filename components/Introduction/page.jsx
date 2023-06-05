@@ -60,7 +60,7 @@ const Introduction = () => {
           </em>
         </a>
         . To kickstart his software engineering journey, he worked an average of
-        15 hours a day to complete his{' '}
+        15 hours a day (over 1200 hours total) to complete his{' '}
         <a
           href="https://generalassemb.ly/education/software-engineering-immersive"
           target="_blank"
