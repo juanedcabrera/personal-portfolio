@@ -31,7 +31,7 @@ function App() {
             title="Waldo's Great Escape"
             description="A moving Where's Waldo game with a storyline"
             image="/../public/uploads/waldo-redo.png"
-            link="https://waldo-great-escape.herokuapp.com/"
+            link="https://juanedcabrera.github.io/Waldos-Great-Escape-Game/"
           />
         </div>
         <NavBlock />
