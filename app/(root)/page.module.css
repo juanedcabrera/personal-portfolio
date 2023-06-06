@@ -12,6 +12,7 @@
 
 .projectBlock2 {
     background-color: #AE2012;
+    transition: transform .25s, visibility .25s ease-in;
 }
 
 .projectBlock3 {
@@ -20,7 +21,6 @@
 
 /* Add this CSS code to your existing stylesheets */
 .projectBlock1,
-.projectBlock2,
 .projectBlock3 {
   /* Add cursor pointer to indicate it's clickable */
   cursor: pointer;
