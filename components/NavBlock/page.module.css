@@ -12,6 +12,12 @@
     font-size: 60px;
     text-decoration: none;
     padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .navLink1:hover, .navLink2:hover, .navLink3:hover, .navLink4:hover {
+    transform: scale(1.1);
   }
   
   .navLink1 {
@@ -31,3 +37,4 @@
     font-family: 'IBM Plex Serif', serif;
     font-style: italic;
   }
+
