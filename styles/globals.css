@@ -17,3 +17,6 @@ a:visited {
   text-decoration: none;
 }
 
+::selection {
+  background: #ef69e4;
+}
