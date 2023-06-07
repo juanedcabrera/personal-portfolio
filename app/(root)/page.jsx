@@ -4,7 +4,6 @@ import ProjectBlock from "../../components/ProjectBlock/page.jsx"
 import Resume from "../../components/Resume/page.jsx"
 import styles from './page.module.css';
 
-
 function App() {
   return (
     <div>
