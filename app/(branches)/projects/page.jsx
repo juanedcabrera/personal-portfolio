@@ -30,7 +30,6 @@ const getProjectMetaData = () => {
   });
   return projects;
 };
-      
 
 const Projects = () => {
   const projects = getProjectMetaData();
@@ -38,26 +37,22 @@ const Projects = () => {
     <section>
       <Header />
       <NavHorizontal />
-      <div className="projects">
+      <div className="flex flex-wrap m-4">
         {projects.map((project) => (
-          <div key={project.slug} className="project">
-            <h1>{project.title}</h1>
-            <p>{project.date}</p>
-            <p>{project.description}</p>
-            <div>
-            <img src={project.image} alt={project.title} />
+          <div key={project.slug} className="max-w-sm rounded overflow-hidden shadow-lg m-4">
+            <img className="w-full rounded" src={project.image} alt={project.title} />
+            <div className="px-7 py-4">
+              <div className="font-bold text-xl px-20 mb-2">{project.title}</div>
+              <p className="text-gray-400 text-base">{project.description}</p>
             </div>
-            <div>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
-              {project.link}
-            </a>
+            <div className="px-7 pt-4 pb-2">
+              <a href={project.link} target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mr-2">
+                Project Link
+              </a>
+              <a href={project.github} target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
+                GitHub Link
+              </a>
             </div>
-            <div>
-            <a href={project.github} target="_blank" rel="noopener noreferrer">
-              {project.github}
-            </a>
-            </div>
-            <p>{project.tech}</p>
           </div>
         ))}
       </div>
