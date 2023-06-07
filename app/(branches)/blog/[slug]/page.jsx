@@ -13,9 +13,6 @@ const getPostContent = (slug) => {
 
 
     const PostPage = ( props ) => {
-        // if (!post) {
-        //   return <div>Loading...</div>; // Add a loading state or error message
-        // }
       const slug = props.params.slug;
         const content = getPostContent(slug);
         return (

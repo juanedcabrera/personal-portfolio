@@ -40,7 +40,6 @@ const Blog = () => {
     <section>
       <Header />
       <NavHorizontal />
-      <p>Blog</p>
       {postsPreview}
     </section>
   );
