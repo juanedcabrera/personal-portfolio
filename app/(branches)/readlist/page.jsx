@@ -44,7 +44,6 @@ const Readlist = () => {
 
   return (
     <section>
-      <Header />
       <NavHorizontal />
       <div className="py-12">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
