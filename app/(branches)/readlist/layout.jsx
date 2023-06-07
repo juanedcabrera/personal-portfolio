@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../styles/globals.css'
-import Header from '../../../components/Header/page.jsx';
+
 
 export const metadata = {
   title: 'Juan Cabrera, Software Engineer',
