@@ -34,7 +34,7 @@ const Readlist = () => {
   const bookList = books.map((book) => (
     <div key={book.slug} className="p-4 mb-6">
       <h1 className="text-2xl font-bold mb-2">{book.title}</h1>
-      <img src={book.image} alt={'The cover for ' + (book.title)} width={100} height={50} />
+      <img src={book.image} alt={'The cover for ' + (book.title)} width={100} height={50} className="mb-2"/>
       <p className="text-sm mb-2">Author: {book.author}</p>
       <p className="text-sm mb-2">Genre: {book.genre}</p>
       <p className="text-sm mb-2">Review: {book.review}</p>
