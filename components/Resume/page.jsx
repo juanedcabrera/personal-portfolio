@@ -32,7 +32,7 @@ const Resume = () => {
           />
           <div >
           <Document
-            file="/uploads/resume.pdf"
+            file="/uploads/web-resume.pdf"
             onLoadSuccess={onDocumentLoadSuccess}
             onLoadError={console.error}
             className={styles.resumeDocument}

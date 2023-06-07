@@ -8,6 +8,18 @@ const nextConfig = {
       use: 'node-loader',
     });
 
+    // Add a rule to handle .md files with markdown-loader and html-loader
+    config.module.rules.push({
+      test: /\.md$/,
+      use: [
+        'html-loader',
+        {
+          loader: 'markdown-loader',
+          options: {},
+        },
+      ],
+    });
+
     return config;
   },
 };

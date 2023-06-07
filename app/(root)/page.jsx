@@ -4,7 +4,6 @@ import ProjectBlock from "../../components/ProjectBlock/page.jsx"
 import Resume from "../../components/Resume/page.jsx"
 import styles from './page.module.css';
 
-
 function App() {
   return (
     <div>
@@ -31,7 +30,7 @@ function App() {
             title="Waldo's Great Escape"
             description="A moving Where's Waldo game with a storyline"
             image="/../public/uploads/waldo-redo.png"
-            link="https://waldo-great-escape.herokuapp.com/"
+            link="https://juanedcabrera.github.io/Waldos-Great-Escape-Game/"
           />
         </div>
         <NavBlock />
