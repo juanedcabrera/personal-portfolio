@@ -13,7 +13,7 @@ function App() {
           <ProjectBlock
             title="Thoughtful.day"
             description="Journaling platform for self-reflection"
-            image="/../public/uploads/thoughtful.png"
+            image="https://res.cloudinary.com/dcbu6vxdi/image/upload/f_auto,q_auto/v1/portfolio/thoughtful"
             link="https://www.thoughtful.day"
           />
         </div>
@@ -21,7 +21,7 @@ function App() {
           <ProjectBlock
             title="Calientes"
             description="The first and only Hot Ones API"
-            image="/../public/uploads/caliente.png"
+            image="https://res.cloudinary.com/dcbu6vxdi/image/upload/f_auto,q_auto/v1/portfolio/caliente"
             link="https://calientes.herokuapp.com/"
           />
         </div>
@@ -29,7 +29,7 @@ function App() {
           <ProjectBlock
             title="Waldo's Great Escape"
             description="A moving Where's Waldo game with a storyline"
-            image="/../public/uploads/waldo-redo.png"
+            image="https://res.cloudinary.com/dcbu6vxdi/image/upload/f_auto,q_auto/v1/portfolio/waldo"
             link="https://juanedcabrera.github.io/Waldos-Great-Escape-Game/"
           />
         </div>
