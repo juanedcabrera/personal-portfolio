@@ -75,7 +75,7 @@ const Introduction = () => {
       {showDadModal && (
         <div className={styles.modal} onClick={handleDadModalClose}>
           <Image
-            src="/../public/uploads/dad.jpeg"
+            src="https://res.cloudinary.com/dcbu6vxdi/image/upload/f_auto,q_auto/v1/portfolio/parent-of-two"
             alt="Dad"
             height={250}
             width={500}
@@ -86,7 +86,7 @@ const Introduction = () => {
       {showAwardModal && (
         <div className={styles.modal} onClick={handleAwardModalClose}>
           <Image
-            src="/../public/uploads/award.jpeg"
+            src="https://res.cloudinary.com/dcbu6vxdi/image/upload/f_auto,q_auto/v1/portfolio/juan-award"
             alt="Award"
             height={500}
             width={400}
