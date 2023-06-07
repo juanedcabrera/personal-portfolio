@@ -24,15 +24,23 @@ const getPostMetaData = () => {
   return posts;
 };
 
+const normalDateFormatter = (date) => {
+  const dateObj = new Date(date);
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  return dateObj.toLocaleDateString('en-US', options);
+};
 
 const Blog = () => {
   const posts = getPostMetaData();
   const postsPreview = posts.map((post) => (
     <div key={post.slug}>
       <Link href={`/blog/${post.slug}`}>
-      <h1>{post.title}</h1></Link>
-      <p>{post.date}</p>
-      <p>{post.description}</p>
+      <h1 className="text-2xl font-bold mb-2 cursor-pointer hover:text-gray-500">
+          {post.title}
+        </h1>
+      </Link>
+      <p>{normalDateFormatter(post.date)}</p>
+      <p className="py-3" >{post.description}</p>
     </div>
   ));
 
@@ -40,7 +48,19 @@ const Blog = () => {
     <section>
       <Header />
       <NavHorizontal />
-      {postsPreview}
+      <div className="py-12">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Musings</h2>
+            <p className="mt-2 text-lg leading-8">
+              Just some thoughts I've had over the years.
+            </p>
+          </div>
+          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            {postsPreview}
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
