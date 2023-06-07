@@ -37,3 +37,10 @@
   /* Scale up the element */
     transform: scale(1.1);
 }
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+}
