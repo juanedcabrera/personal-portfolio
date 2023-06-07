@@ -1,6 +1,6 @@
 # Book1
 
-Image: ![Book1](https://m.media-amazon.com/images/I/51JvHerdfdL._AC_UF1000,1000_QL80_.jpg)
+Image: https://m.media-amazon.com/images/I/51yCvlBVEQL._AC_UF1000,1000_QL80_.jpg
 
 Author: Joe Schmo
 
