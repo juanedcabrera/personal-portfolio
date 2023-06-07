@@ -1,13 +1,12 @@
 'use client'
-import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, EnvelopeIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '/', current: false },
-  { name: 'Projects', href: '/projects', current: true },
-  { name: 'Blog', href: '/blog', current: false },
-  { name: 'Readlist', href: '/readlist', current: false },
+  { name: 'Home', href: '/', },
+  { name: 'Projects', href: '/projects', },
+  { name: 'Blog', href: '/blog',  },
+  { name: 'Readlist', href: '/readlist',  },
 ]
 
 function classNames(...classes) {

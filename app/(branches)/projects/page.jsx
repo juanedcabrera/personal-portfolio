@@ -35,7 +35,6 @@ const Projects = () => {
   const projects = getProjectMetaData();
   return (
     <section>
-      <Header />
       <NavHorizontal />
       <div className="flex flex-wrap m-4">
         {projects.map((project) => (
