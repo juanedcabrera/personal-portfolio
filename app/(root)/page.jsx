@@ -29,7 +29,7 @@ function App() {
           <ProjectBlock
             title="Waldo's Great Escape"
             description="A moving Where's Waldo game with a storyline"
-            image="https://res.cloudinary.com/dcbu6vxdi/image/upload/f_auto,q_auto/v1/portfolio/waldo"
+            image="https://res.cloudinary.com/dcbu6vxdi/image/upload/f_auto,q_auto/v1/portfolio/waldo-redo"
             link="https://juanedcabrera.github.io/Waldos-Great-Escape-Game/"
           />
         </div>
