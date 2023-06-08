@@ -3,9 +3,10 @@ import NavHorizontal from '../../../../components/NavHorizontal/page';
 import React from 'react';
 import fs from 'fs';
 import { Remarkable } from 'remarkable';
+import path from 'path';
 
 const getPostContent = (slug) => {
-  const folder = '../../../../public/uploads/posts';
+  const folder = path.join(process.cwd(), 'public/uploads/posts');
   const file = `${folder}/${slug}.md`;
   const content = fs.readFileSync(file, 'utf8');
   const lines = content.split('\n');
