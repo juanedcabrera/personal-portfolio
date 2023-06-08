@@ -5,7 +5,7 @@ import fs from 'fs';
 import { Remarkable } from 'remarkable';
 
 const getPostContent = (slug) => {
-  const folder = './public/uploads/posts';
+  const folder = '../../../../public/uploads/posts';
   const file = `${folder}/${slug}.md`;
   const content = fs.readFileSync(file, 'utf8');
   const lines = content.split('\n');
