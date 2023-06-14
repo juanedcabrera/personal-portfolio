@@ -22,7 +22,7 @@ function App() {
             title="Calientes"
             description="The first and only Hot Ones API"
             image="https://res.cloudinary.com/dcbu6vxdi/image/upload/f_auto,q_auto/v1/portfolio/caliente"
-            link="https://calientes.herokuapp.com/"
+            link="https://calientes-nine.vercel.app/"
           />
         </div>
         <div className={`${styles.projectBlock3}`}>
