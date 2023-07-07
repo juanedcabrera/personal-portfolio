@@ -8,34 +8,30 @@
   
 .projectBlock1 {
     background-color: #005F73 ;
+    color:white;
+}
+
+.projectBlock1:hover {
+  background-color: white;
+  color: #005F73;
 }
 
 .projectBlock2 {
     background-color: #AE2012;
-    transition: transform .25s, visibility .25s ease-in;
+}
+
+.projectBlock2:hover {
+  background-color: white;
+  color: #AE2012;
 }
 
 .projectBlock3 {
     background-color: #EE9B00;
 }
 
-/* Add this CSS code to your existing stylesheets */
-.projectBlock1,
-.projectBlock3 {
-  /* Add cursor pointer to indicate it's clickable */
-  cursor: pointer;
-
-  /* Apply the zoom effect */
-  transform-origin: 0 0;
-  transition: transform .25s, visibility .25s ease-in;
-}
-
-/* Apply the zoom effect when hovering over the project blocks */
-.projectBlock1:hover,
-.projectBlock2:hover,
 .projectBlock3:hover {
-  /* Scale up the element */
-    transform: scale(1.1);
+  background-color: white;
+  color:#EE9B00;
 }
 
 /* Media Query for Mobile */
