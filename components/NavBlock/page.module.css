@@ -15,15 +15,16 @@
     cursor: pointer;
     transition: transform 0.3s ease;
   }
-
-  .navLink1:hover, .navLink2:hover, .navLink3:hover, .navLink4:hover {
-    transform: scale(1.1);
-  }
   
   .navLink1 {
     background-color: #0A9396;
     font-family: 'IBM Plex Serif', serif;
     font-style: italic;
+  }
+
+  .navLink1:hover {
+    background-color: white;
+    color: #0A9396;
   }
 
   .navLink2 {
@@ -32,9 +33,18 @@
     font-style: italic;
   }
 
+  .navLink2:hover {
+    background-color: white;
+    color: #CA6702;
+  }
+
   .navLink3 {
     background-color: #94D2BD;
     font-family: 'IBM Plex Serif', serif;
     font-style: italic;
   }
 
+  .navLink3:hover {
+    background-color: white;
+    color: #94D2BD;
+  }
